@@ -1,0 +1,126 @@
+{
+  "payments": [
+    "Multibanco",
+    "Dinheiro",
+    "Cartão",
+    "Transferência bancária"
+  ],
+  "categories": [
+    "Piscina",
+    "Jardim",
+    "Limpeza",
+    "Eletricidade",
+    "Extintores",
+    "Vide Descrição",
+    "Despesas extraordinárias sub 350",
+    "Despesas extra aprovadas em assembleia",
+    "Despesas correntes de manutençao",
+    "Notas de crédito / valores recebidos"
+  ],
+  "suppliers": [
+    "Sr. José Luis",
+    "Sr. António",
+    "Sra. Da Limpeza",
+    "EDP - Contrato 1",
+    "EDP - Contrato 2",
+    "EDP - Contrato 3",
+    "EDP - Contrato 4",
+    "EDP - Contrato 5",
+    "Aguas de Coimbra",
+    "Fornecedor Extintores",
+    "Fundo de Reserva"
+  ],
+  "expenses": [
+    {
+      "id": 4,
+      "date": "2026-09-15",
+      "supplier": "Sr. José Luis",
+      "category": "Piscina",
+      "description": "testes 1",
+      "payment": "Multibanco",
+      "value": 150.0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "date": "2026-09-15",
+      "supplier": "Sr. António",
+      "category": "Jardim",
+      "description": "testes 2",
+      "payment": "Dinheiro",
+      "value": 100.0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "date": "2026-09-15",
+      "supplier": "Sra. Da Limpeza",
+      "category": "Limpeza",
+      "description": "testes 3",
+      "payment": "Cartão",
+      "value": 112.0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "date": "2026-09-15",
+      "supplier": "EDP - Contrato 1",
+      "category": "Eletricidade",
+      "description": "testes 4",
+      "payment": "Cartão",
+      "value": 111.0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "date": "2026-09-15",
+      "supplier": "EDP - Contrato 2",
+      "category": "Eletricidade",
+      "description": "testes 5",
+      "payment": "Dinheiro",
+      "value": 10.0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "date": "2026-09-16",
+      "supplier": "EDP - Contrato 3",
+      "category": "Eletricidade",
+      "description": "testes 6",
+      "payment": "Multibanco",
+      "value": 250.0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "date": "2026-09-19",
+      "supplier": "EDP - Contrato 4",
+      "category": "Eletricidade",
+      "description": "testes 7",
+      "payment": "Transferência bancária",
+      "value": 350.0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "date": "2026-08-15",
+      "supplier": "EDP - Contrato 5",
+      "category": "Eletricidade",
+      "description": "testes 8",
+      "payment": "Transferência bancária",
+      "value": 250.0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "date": "2026-09-19",
+      "supplier": "Fornecedor Extintores",
+      "category": "Extintores",
+      "description": "testes 9",
+      "payment": "Cartão",
+      "value": 65.0,
+      "notes": ""
+    }
+  ],
+  "budgets": {}
+}

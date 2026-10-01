@@ -1,0 +1,25 @@
+GESTÃO CONDOMÍNIO — VERSÃO 0.1
+
+Esta é uma aplicação PWA (Progressive Web App) para testar no Android.
+
+Funcionalidades incluídas:
+- Dashboard anual e mensal
+- Lista/pesquisa de despesas
+- Criar, editar e eliminar despesas
+- Fornecedores e mapa mensal
+- Orçamento anual por fornecedor vs. gasto real
+- Gestão de fornecedores, categorias e formas de pagamento
+- Backup local em JSON
+- Dados iniciais importados de “gestao definitivo.xlsx”
+- Funcionamento offline após a primeira abertura
+
+COMO TESTAR NO COMPUTADOR
+1. Abra uma consola dentro desta pasta.
+2. Execute: python -m http.server 8080
+3. Abra no navegador: http://localhost:8080
+
+COMO INSTALAR NO ANDROID
+A PWA precisa de ser servida por HTTPS para aparecer como app instalável no Android. Publique esta pasta num alojamento HTTPS (por exemplo, GitHub Pages, Netlify ou servidor próprio). Depois, no Chrome Android, abra o endereço e escolha “Adicionar ao ecrã principal” / “Instalar app”.
+
+NOTA
+Esta versão guarda os dados no próprio navegador/dispositivo (localStorage). Antes de apagar dados do Chrome, use “Mais > Exportar backup”. Para uma versão final multi-dispositivo, deve ser adicionada uma base de dados/sincronização.
